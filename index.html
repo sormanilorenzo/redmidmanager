@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RedM Item Manager</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        :root {
+            --primary-color: #8B0000;
+            --secondary-color: #D2B48C;
+            --background-color: #F5F5DC;
+            --text-color: #3E2723;
+            --card-bg: #FFFFFF;
+            --sidebar-bg: #3E2723;
+            --sidebar-text: #F5F5DC;
+            --hover-color: #CD853F;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Georgia', serif;
+        }
+        
+        body {
+            background-color: var(--background-color);
+            color: var(--text-color);
+            display: flex;
+            min-height: 100vh;
+        }
+        
+        /* Sidebar Styles */
+        .sidebar {
+            width: 280px;
+            background-color: var(--sidebar-bg);
+            color: var(--sidebar-text);
+            padding: 20px;
+            position: fixed;
+            height: 100vh;
+            overflow-y: auto;
+            transition: all 0.3s ease;
+            box-shadow: 2px 0 10px rgba(0,0,0,0.2);
+        }
+        
+        .sidebar h1 {
+            font-size: 24px;
+            margin-bottom: 30px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid var(--secondary-color);
+            text-align: center;
+        }
+        
+        .search-container {
+            margin-bottom: 20px;
+            position: relative;
+        }
+        
+        .search-container input {
+            width: 100%;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            background-color: rgba(255, 255, 255, 0.1);
+            color: var(--sidebar-text);
+            font-size: 16px;
+            border: 1px solid var(--secondary-color);
+        }
+        
+        .search-container input::placeholder {
+            color: rgba(255, 255, 255, 0.6);
+        }
+        
+        .filter-section h2 {
+            font-size: 18px;
+            margin: 20px 0 10px;
+            border-bottom: 1px solid var(--secondary-color);
+            padding-bottom: 5px;
+        }
+        
+        .filter-group {
+            margin-bottom: 15px;
+        }
+        
+        .filter-option {
+            display: flex;
+            align-items: center;
+            margin: 8px 0;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+        
+        .filter-option:hover {
+            color: var(--hover-color);
+        }
+        
+        .filter-option input[type="checkbox"] {
+            margin-right: 10px;
+            cursor: pointer;
+            width: 16px;
+            height: 16px;
+        }
+        
+        /* Main Content Styles */
+        .main-content {
+            flex: 1;
+            margin-left: 280px;
+            padding: 20px;
+            transition: all 0.3s ease;
+        }
+        
+        .content-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid var(--secondary-color);
+        }
+        
+        .content-header h2 {
+            font-size: 28px;
+            color: var(--primary-color);
+        }
+        
+        .item-count {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 5px 10px;
+            border-radius: 20px;
+            font-size: 14px;
+        }
+        
+        .items-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+            gap: 20px;
+        }
+        
+        .item-card {
+            background-color: var(--card-bg);
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            transition: all 0.3s ease;
+            cursor: pointer;
+            position: relative;
+        }
+        
+        .item-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+        }
+        
+        .item-image {
+            height: 160px;
+            background-size: contain;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-color: rgba(210, 180, 140, 0.2);
+        }
+        
+        .item-details {
+            padding: 15px;
+        }
+        
+        .item-name {
+            font-size: 16px;
+            font-weight: bold;
+            margin-bottom: 5px;
+            color: var(--text-color);
+        }
+        
+        .item-id {
+            font-family: 'Courier New', monospace;
+            background-color: rgba(62, 39, 35, 0.1);
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-size: 14px;
+            color: var(--primary-color);
+            word-break: break-all;
+        }
+        
+        .copy-toast {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: var(--primary-color);
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+            display: none;
+            z-index: 1000;
+        }
+        
+        .copy-indicator {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background-color: var(--primary-color);
+            color: white;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+        
+        .item-card:hover .copy-indicator {
+            opacity: 0.9;
+        }
+        
+        .no-results {
+            grid-column: 1 / -1;
+            text-align: center;
+            padding: 40px;
+            font-size: 18px;
+            color: var(--text-color);
+            background-color: rgba(210, 180, 140, 0.2);
+            border-radius: 8px;
+        }
+        
+        /* Loading indicator */
+        .loading {
+            grid-column: 1 / -1;
+            text-align: center;
+            padding: 40px;
+            font-size: 18px;
+            color: var(--text-color);
+        }
+        
+        .loading-spinner {
+            display: inline-block;
+            width: 40px;
+            height: 40px;
+            border: 4px solid rgba(139, 0, 0, 0.3);
+            border-radius: 50%;
+            border-top-color: var(--primary-color);
+            animation: spin 1s ease-in-out infinite;
+            margin-bottom: 10px;
+        }
+        
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+        
+        /* Mobile Styles */
+        .sidebar-toggle {
+            display: none;
+            position: fixed;
+            top: 10px;
+            left: 10px;
+            z-index: 1001;
+            background-color: var(--primary-color);
+            color: white;
+            border: none;
+            width: 40px;
+            height: 40px;
+            border-radius: 5px;
+            cursor: pointer;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+        }
+        
+        @media (max-width: 768px) {
+            .sidebar {
+                transform: translateX(-100%);
+                z-index: 1000;
+            }
+            
+            .sidebar.active {
+                transform: translateX(0);
+            }
+            
+            .main-content {
+                margin-left: 0;
+            }
+            
+            .sidebar-toggle {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            
+            .sidebar-toggle.active {
+                left: 290px;
+            }
+            
+            .items-grid {
+                grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+            }
+        }
+        
+        /* Error message */
+        .error-message {
+            grid-column: 1 / -1;
+            text-align: center;
+            padding: 20px;
+            color: var(--primary-color);
+            background-color: rgba(139, 0, 0, 0.1);
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <button class="sidebar-toggle" id="sidebarToggle">
+        <i class="fas fa-bars"></i>
+    </button>
+    
+    <div class="sidebar" id="sidebar">
+        <h1>RedM Item Manager</h1>
+        
+        <div class="search-container">
+            <input type="text" id="searchInput" placeholder="Cerca item...">
+        </div>
+        
+        <div class="filter-section">
+            <h2>Categorie</h2>
+            <div class="filter-group">
+                <div class="filter-option">
+                    <input type="checkbox" id="filter-all" checked>
+                    <label for="filter-all">Tutti gli item</label>
+                </div>
+                <div class="filter-option">
+                    <input type="checkbox" id="filter-weapons">
+                    <label for="filter-weapons">Armi da fuoco</label>
+                </div>
+                <div class="filter-option">
+                    <input type="checkbox" id="filter-melee">
+                    <label for="filter-melee">Armi da Mischia</label>
+                </div>
+                <div class="filter-option">
+                    <input type="checkbox" id="filter-tools">
+                    <label for="filter-tools">Strumenti</label>
+                </div>
+                <div class="filter-option">
+                    <input type="checkbox" id="filter-throwable">
+                    <label for="filter-throwable">Armi da lancio</label>
+                </div>
+                <div class="filter-option">
+                    <input type="checkbox" id="filter-ammo">
+                    <label for="filter-ammo">Munizioni</label>
+                </div>
+                <div class="filter-option">
+                    <input type="checkbox" id="filter-seeds">
+                    <label for="filter-seeds">Semi</label>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="main-content">
+        <div class="content-header">
+            <h2>Item Database</h2>
+            <span class="item-count" id="itemCount">0 item</span>
+        </div>
+        
+        <div class="items-grid" id="itemsGrid">
+            <!-- Loading placeholder -->
+            <div class="loading">
+                <div class="loading-spinner"></div>
+                <p>Caricamento items...</p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="copy-toast" id="copyToast">
+        ID copiato negli appunti!
+    </div>
+    
+    <script>
+        // DOM Elements
+        const itemsGrid = document.getElementById('itemsGrid');
+        const searchInput = document.getElementById('searchInput');
+        const itemCount = document.getElementById('itemCount');
+        const copyToast = document.getElementById('copyToast');
+        const sidebarToggle = document.getElementById('sidebarToggle');
+        const sidebar = document.getElementById('sidebar');
+        const filterCheckboxes = document.querySelectorAll('.filter-option input[type="checkbox"]');
+        
+        // Data storage
+        let allItems = [];
+        
+        // Sidebar toggle for mobile
+        sidebarToggle.addEventListener('click', () => {
+            sidebar.classList.toggle('active');
+            sidebarToggle.classList.toggle('active');
+        });
+        
+        // Filter logic
+        let activeFilters = {
+            search: '',
+            categories: ['all']
+        };
+        
+        // Function to load items from JSON files
+        async function loadItems() {
+            // Define categories to load
+            const categories = ['weapons', 'melee', 'throwable', 'tools', 'ammo', 'seeds'];
+            
+            try {
+                // Show loading indicator
+                itemsGrid.innerHTML = `
+                    <div class="loading">
+                        <div class="loading-spinner"></div>
+                        <p>Caricamento items...</p>
+                    </div>
+                `;
+                
+                // Load each category file
+                const itemPromises = categories.map(category => 
+                    fetch(`data/${category}.json`)
+                        .then(response => {
+                            if (!response.ok) {
+                                throw new Error(`Errore nel caricamento di ${category}.json: ${response.status}`);
+                            }
+                            return response.json();
+                        })
+                        .catch(error => {
+                            console.error(`Errore nel caricamento di ${category}.json:`, error);
+                            return []; // Return empty array if file can't be loaded
+                        })
+                );
+                
+                // Wait for all data to load
+                const categoryData = await Promise.all(itemPromises);
+                
+                // Combine all items into one array
+                allItems = categoryData.flat();
+                
+                // If no items were loaded, show error
+                if (allItems.length === 0) {
+                    itemsGrid.innerHTML = `
+                        <div class="error-message">
+                            <h3>Nessun item trovato</h3>
+                            <p>Verifica che i file JSON siano presenti nella cartella "data".</p>
+                        </div>
+                    `;
+                    return;
+                }
+                
+                // Render the items
+                renderGrid();
+                
+            } catch (error) {
+                console.error("Errore nel caricamento dei dati:", error);
+                itemsGrid.innerHTML = `
+                    <div class="error-message">
+                        <h3>Errore nel caricamento dei dati</h3>
+                        <p>${error.message}</p>
+                        <p>Ricarica la pagina per riprovare.</p>
+                    </div>
+                `;
+            }
+        }
+        
+        // Initialize the grid
+        function renderGrid() {
+            // Clear existing items
+            itemsGrid.innerHTML = '';
+            
+            // Filter items based on active filters
+            let filteredItems = allItems;
+            
+            // Apply category filters
+            if (!activeFilters.categories.includes('all')) {
+                filteredItems = filteredItems.filter(item => 
+                    activeFilters.categories.includes(item.category)
+                );
+            }
+            
+            // Apply search filter
+            if (activeFilters.search) {
+                const searchTerm = activeFilters.search.toLowerCase();
+                filteredItems = filteredItems.filter(item => 
+                    item.name.toLowerCase().includes(searchTerm) || 
+                    item.id.toLowerCase().includes(searchTerm)
+                );
+            }
+            
+            // Update count
+            itemCount.textContent = `${filteredItems.length} item`;
+            
+            // If no results
+            if (filteredItems.length === 0) {
+                const noResults = document.createElement('div');
+                noResults.className = 'no-results';
+                noResults.textContent = 'Nessun item trovato';
+                itemsGrid.appendChild(noResults);
+                return;
+            }
+            
+            // Render filtered items
+            filteredItems.forEach(item => {
+                const card = document.createElement('div');
+                card.className = 'item-card';
+                card.innerHTML = `
+                    <div class="item-image" style="background-image: url('${item.image}')"></div>
+                    <div class="item-details">
+                        <div class="item-name">${item.name}</div>
+                        <div class="item-id">${item.id}</div>
+                    </div>
+                    <div class="copy-indicator">
+                        <i class="fas fa-copy"></i>
+                    </div>
+                `;
+                
+                // Add click event to copy ID
+                card.addEventListener('click', () => {
+                    navigator.clipboard.writeText(item.id)
+                        .then(() => {
+                            // Show toast message
+                            copyToast.style.display = 'block';
+                            setTimeout(() => {
+                                copyToast.style.display = 'none';
+                            }, 2000);
+                        })
+                        .catch(err => {
+                            console.error('Failed to copy: ', err);
+                        });
+                });
+                
+                itemsGrid.appendChild(card);
+            });
+        }
+        
+        // Event Listeners
+        searchInput.addEventListener('input', (e) => {
+            activeFilters.search = e.target.value;
+            renderGrid();
+        });
+        
+        // Handle filter checkboxes
+        filterCheckboxes.forEach(checkbox => {
+            checkbox.addEventListener('change', (e) => {
+                const filterId = e.target.id.split('-')[1]; // Get the filter ID
+                
+                if (filterId === 'all') {
+                    // If "All" is checked, uncheck others and set only "all" as filter
+                    if (e.target.checked) {
+                        filterCheckboxes.forEach(cb => {
+                            if (cb.id !== 'filter-all') {
+                                cb.checked = false;
+                            }
+                        });
+                        activeFilters.categories = ['all'];
+                    } else {
+                        // If "All" is unchecked, don't allow it (must have at least one filter)
+                        e.target.checked = true;
+                    }
+                } else {
+                    // If any other category is checked, uncheck "All"
+                    document.getElementById('filter-all').checked = false;
+                    
+                    // Update active filters
+                    if (e.target.checked) {
+                        // Add category to filter
+                        if (activeFilters.categories.includes('all')) {
+                            activeFilters.categories = [filterId];
+                        } else {
+                            activeFilters.categories.push(filterId);
+                        }
+                    } else {
+                        // Remove category from filter
+                        activeFilters.categories = activeFilters.categories.filter(cat => cat !== filterId);
+                        
+                        // If no categories selected, select "All" again
+                        if (activeFilters.categories.length === 0) {
+                            document.getElementById('filter-all').checked = true;
+                            activeFilters.categories = ['all'];
+                        }
+                    }
+                }
+                
+                renderGrid();
+            });
+        });
+        
+        // Initialize on page load
+        document.addEventListener('DOMContentLoaded', () => {
+            loadItems();
+        });
+    </script>
+</body>
+</html>

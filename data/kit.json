@@ -1,0 +1,26 @@
+[
+    {
+        "id": "KIT_BINOCULARS",
+        "name": "KIT_BINOCULARS",
+        "category": "kit",
+        "image": "image/kit/weapon_kit_binoculars.png"
+    },
+    {
+        "id": "KIT_BINOCULARS_IMPROVED",
+        "name": "KIT_BINOCULARS_IMPROVED",
+        "category": "kit",
+        "image": "image/kit/weapon_kit_binoculars_improved.png"
+    },
+    {
+        "id": "KIT_CAMERA",
+        "name": "KIT_CAMERA",
+        "category": "kit",
+        "image": "image/kit/weapon_kit_camera.png"
+    },
+    {
+        "id": "KIT_CAMERA_ADVANCED",
+        "name": "KIT_CAMERA_ADVANCED",
+        "category": "kit",
+        "image": "image/kit/weapon_kit_camera_advanced.png"
+    }
+]

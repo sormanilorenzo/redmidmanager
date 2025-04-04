@@ -1,0 +1,356 @@
+[
+    {
+        "id": "WEAPON_BOW",
+        "name": "arco",
+        "category": "weapons",
+        "image": "image/weapons/weapon_bow.png"
+    },
+    {
+        "id": "WEAPON_BOW_IMPROVED",
+        "name": "arco migliorato",
+        "category": "weapons",
+        "image": "image/weapons/weapon_bow_improved.png"
+    },
+    {
+        "id": "WEAPON_FISHINGROD",
+        "name": "canna da pesca",
+        "category": "weapons",
+        "image": "image/weapons/weapon_fishingrod.png"
+    },
+    {
+        "id": "WEAPON_KIT_BINOCULARS",
+        "name": "binocolo",
+        "category": "weapons",
+        "image": "image/weapons/weapon_kit_binoculars.png"
+    },
+    {
+        "id": "WEAPON_KIT_BINOCULARS_IMPROVED",
+        "name": "binocolo migliorato",
+        "category": "weapons",
+        "image": "image/weapons/weapon_kit_binoculars_improved.png"
+    },
+    {
+        "id": "WEAPON_KIT_CAMERA",
+        "name": "fotocamera",
+        "category": "weapons",
+        "image": "image/weapons/weapon_kit_camera.png"
+    },
+    {
+        "id": "WEAPON_KIT_CAMERA_ADVANCED",
+        "name": "fotocamera avanzata",
+        "category": "weapons",
+        "image": "image/weapons/weapon_kit_camera_advanced.png"
+    },
+    {
+        "id": "WEAPON_LASSO",
+        "name": "lazo",
+        "category": "weapons",
+        "image": "image/weapons/weapon_lasso.png"
+    },
+    {
+        "id": "WEAPON_LASSO_REINFORCED",
+        "name": "lazo rinforzato",
+        "category": "weapons",
+        "image": "image/weapons/weapon_lasso_reinforced.png"
+    },
+    {
+        "id": "WEAPON_MELEE_CLEAVER",
+        "name": "cleaver",
+        "category": "weapons",
+        "image": "image/weapons/weapon_melee_cleaver.png"
+    },
+    {
+        "id": "WEAPON_MELEE_HAMMER",
+        "name": "martello",
+        "category": "weapons",
+        "image": "image/weapons/weapon_melee_hammer.png"
+    },
+    {
+        "id": "WEAPON_MELEE_HATCHET_DOUBLE_BIT",
+        "name": "ascia doppia",
+        "category": "weapons",
+        "image": "image/weapons/weapon_melee_hatchet_double_bit.png"
+    },
+    {
+        "id": "WEAPON_MELEE_HATCHET_HUNTER",
+        "name": "ascia da caccia",
+        "category": "weapons",
+        "image": "image/weapons/weapon_melee_hatchet_hunter.png"
+    },
+    {
+        "id": "WEAPON_MELEE_HATCHET_STONE",
+        "name": "ascia di pietra",
+        "category": "weapons",
+        "image": "image/weapons/weapon_melee_hatchet_stone.png"
+    },
+    {
+        "id": "WEAPON_MELEE_HATCHET_VIKING",
+        "name": "ascia vichinga",
+        "category": "weapons",
+        "image": "image/weapons/weapon_melee_hatchet_viking.png"
+    },
+    {
+        "id": "WEAPON_MELEE_KNIFE",
+        "name": "coltello",
+        "category": "weapons",
+        "image": "image/weapons/weapon_melee_knife.png"
+    },
+    {
+        "id": "WEAPON_MELEE_KNIFE_CIVIL_WAR",
+        "name": "coltello guerra civile",
+        "category": "weapons",
+        "image": "image/weapons/weapon_melee_knife_civil_war.png"
+    },
+    {
+        "id": "WEAPON_MELEE_KNIFE_HORROR",
+        "name": "coltello horror",
+        "category": "weapons",
+        "image": "image/weapons/weapon_melee_knife_horror.png"
+    },
+    {
+        "id": "WEAPON_MELEE_KNIFE_JAWBONE",
+        "name": "coltello mascella",
+        "category": "weapons",
+        "image": "image/weapons/weapon_melee_knife_jawbone.png"
+    },
+    {
+        "id": "WEAPON_MELEE_KNIFE_RUSTIC",
+        "name": "coltello rustico",
+        "category": "weapons",
+        "image": "image/weapons/weapon_melee_knife_rustic.png"
+    },
+    {
+        "id": "WEAPON_MELEE_KNIFE_TRADER",
+        "name": "coltello del commerciante",
+        "category": "weapons",
+        "image": "image/weapons/weapon_melee_knife_trader.png"
+    },
+    {
+        "id": "WEAPON_MELEE_LANTERN_DAVY",
+        "name": "lanterna di davy",
+        "category": "weapons",
+        "image": "image/weapons/weapon_melee_lantern_davy.png"
+    },
+    {
+        "id": "WEAPON_MELEE_LANTERN_ELECTRIC",
+        "name": "lanterna elettrica",
+        "category": "weapons",
+        "image": "image/weapons/weapon_melee_lantern_electric.png"
+    },
+    {
+        "id": "WEAPON_MELEE_LANTERN_HALLOWEEN",
+        "name": "lanterna di halloween",
+        "category": "weapons",
+        "image": "image/weapons/weapon_melee_lantern_halloween.png"
+    },
+    {
+        "id": "WEAPON_MELEE_MACHETE",
+        "name": "machete",
+        "category": "weapons",
+        "image": "image/weapons/weapon_melee_machete.png"
+    },
+    {
+        "id": "WEAPON_MELEE_MACHETE_COLLECTOR",
+        "name": "machete del collezionista",
+        "category": "weapons",
+        "image": "image/weapons/weapon_melee_machete_collector.png"
+    },
+    {
+        "id": "WEAPON_MELEE_MACHETE_ZAVALA",
+        "name": "machete zavala",
+        "category": "weapons",
+        "image": "image/weapons/weapon_melee_machete_zavala.png"
+    },
+    {
+        "id": "WEAPON_MELEE_ORATE_DAGGER",
+        "name": "pugnale ornato",
+        "category": "weapons",
+        "image": "image/weapons/weapon_melee_orate_dagger.png"
+    },
+    {
+        "id": "WEAPON_MELEE_SWORD_BROKEN_PIRATE",
+        "name": "spada pirata rotta",
+        "category": "weapons",
+        "image": "image/weapons/weapon_melee_sword_broken_pirate.png"
+    },
+    {
+        "id": "WEAPON_MELEE_TORCH",
+        "name": "torcia",
+        "category": "weapons",
+        "image": "image/weapons/weapon_melee_torch.png"
+    },
+    {
+        "id": "WEAPON_PISTOL_M1899",
+        "name": "pistola m1899",
+        "category": "weapons",
+        "image": "image/weapons/weapon_pistol_m1899.png"
+    },
+    {
+        "id": "WEAPON_PISTOL_MAUSER",
+        "name": "pistola mauser",
+        "category": "weapons",
+        "image": "image/weapons/weapon_pistol_mauser.png"
+    },
+    {
+        "id": "WEAPON_PISTOL_SEMIAUTO",
+        "name": "pistola semiautomatica",
+        "category": "weapons",
+        "image": "image/weapons/weapon_pistol_semiauto.png"
+    },
+    {
+        "id": "WEAPON_PISTOL_VOLCANIC",
+        "name": "pistola vulcanica",
+        "category": "weapons",
+        "image": "image/weapons/weapon_pistol_volcanic.png"
+    },
+    {
+        "id": "WEAPON_REPEATER_CARBINE",
+        "name": "carabina",
+        "category": "weapons",
+        "image": "image/weapons/weapon_repeater_carbine.png"
+    },
+    {
+        "id": "WEAPON_REPEATER_EVANS",
+        "name": "evans",
+        "category": "weapons",
+        "image": "image/weapons/weapon_repeater_evans.png"
+    },
+    {
+        "id": "WEAPON_REPEATER_HENRY",
+        "name": "henry",
+        "category": "weapons",
+        "image": "image/weapons/weapon_repeater_henry.png"
+    },
+    {
+        "id": "WEAPON_REPEATER_LANCASTER",
+        "name": "lancaster",
+        "category": "weapons",
+        "image": "image/weapons/weapon_repeater_lancaster.png"
+    },
+    {
+        "id": "WEAPON_REPEATER_WINCHESTER",
+        "name": "winchester",
+        "category": "weapons",
+        "image": "image/weapons/weapon_repeater_winchester.png"
+    },
+    {
+        "id": "WEAPON_REVOLVER_CATTLEMAN",
+        "name": "revolver cattleman",
+        "category": "weapons",
+        "image": "image/weapons/weapon_revolver_cattleman.png"
+    },
+    {
+        "id": "WEAPON_REVOLVER_CATTLEMAN_MEXICAN",
+        "name": "revolver cattleman messicano",
+        "category": "weapons",
+        "image": "image/weapons/weapon_revolver_cattleman_mexican.png"
+    },
+    {
+        "id": "WEAPON_REVOLVER_DOUBLEACTION",
+        "name": "revolver a doppia azione",
+        "category": "weapons",
+        "image": "image/weapons/weapon_revolver_doubleaction.png"
+    },
+    {
+        "id": "WEAPON_REVOLVER_DOUBLEACTION_GAMBLER",
+        "name": "revolver a doppia azione del giocatore",
+        "category": "weapons",
+        "image": "image/weapons/weapon_revolver_doubleaction_gambler.png"
+    },
+    {
+        "id": "WEAPON_REVOLVER_LEMAT",
+        "name": "revolver lemat",
+        "category": "weapons",
+        "image": "image/weapons/weapon_revolver_lemat.png"
+    },
+    {
+        "id": "WEAPON_REVOLVER_NAVY",
+        "name": "revolver navy",
+        "category": "weapons",
+        "image": "image/weapons/weapon_revolver_navy.png"
+    },
+    {
+        "id": "WEAPON_REVOLVER_NAVY_CROSSOVER",
+        "name": "revolver navy crossover",
+        "category": "weapons",
+        "image": "image/weapons/weapon_revolver_navy_crossover.png"
+    },
+    {
+        "id": "WEAPON_REVOLVER_SCHOFIELD",
+        "name": "revolver schofield",
+        "category": "weapons",
+        "image": "image/weapons/weapon_revolver_schofield.png"
+    },
+    {
+        "id": "WEAPON_RIFLE_BOLTACTION",
+        "name": "fucile a otturatore",
+        "category": "weapons",
+        "image": "image/weapons/weapon_rifle_boltaction.png"
+    },
+    {
+        "id": "WEAPON_RIFLE_ELEPHANT",
+        "name": "fucile elefante",
+        "category": "weapons",
+        "image": "image/weapons/weapon_rifle_elephant.png"
+    },
+    {
+        "id": "WEAPON_RIFLE_SPRINGFIELD",
+        "name": "fucile springfield",
+        "category": "weapons",
+        "image": "image/weapons/weapon_rifle_springfield.png"
+    },
+    {
+        "id": "WEAPON_RIFLE_VARMINT",
+        "name": "fucile per piccoli animali",
+        "category": "weapons",
+        "image": "image/weapons/weapon_rifle_varmint.png"
+    },
+    {
+        "id": "WEAPON_SHOTGUN_DOUBLEBARREL",
+        "name": "doppietta",
+        "category": "weapons",
+        "image": "image/weapons/weapon_shotgun_doublebarrel.png"
+    },
+    {
+        "id": "WEAPON_SHOTGUN_DOUBLEBARREL_EXOTIC",
+        "name": "doppietta esotica",
+        "category": "weapons",
+        "image": "image/weapons/weapon_shotgun_doublebarrel_exotic.png"
+    },
+    {
+        "id": "WEAPON_SHOTGUN_PUMP",
+        "name": "fucile a pompa",
+        "category": "weapons",
+        "image": "image/weapons/weapon_shotgun_pump.png"
+    },
+    {
+        "id": "WEAPON_SHOTGUN_REPEATING",
+        "name": "fucile ripetitore",
+        "category": "weapons",
+        "image": "image/weapons/weapon_shotgun_repeating.png"
+    },
+    {
+        "id": "WEAPON_SHOTGUN_SAWEDOFF",
+        "name": "fucile segato",
+        "category": "weapons",
+        "image": "image/weapons/weapon_shotgun_sawedoff.png"
+    },
+    {
+        "id": "WEAPON_SHOTGUN_SEMIAUTO",
+        "name": "fucile semiautomatico",
+        "category": "weapons",
+        "image": "image/weapons/weapon_shotgun_semiauto.png"
+    },
+    {
+        "id": "WEAPON_SNIPERRIFLE_CARCANO",
+        "name": "fucile da cecchino carcano",
+        "category": "weapons",
+        "image": "image/weapons/weapon_sniperrifle_carcano.png"
+    },
+    {
+        "id": "WEAPON_SNIPERRIFLE_ROLLINGBLOCK",
+        "name": "fucile da cecchino rolling block",
+        "category": "weapons",
+        "image": "image/weapons/weapon_sniperrifle_rollingblock.png"
+    }
+]

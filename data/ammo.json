@@ -1,0 +1,374 @@
+[
+    {
+        "id": "AMMO_22",
+        "name": "munizione_22",
+        "category": "ammo",
+        "image": "image/ammo/ammo_22.png"
+    },
+    {
+        "id": "AMMO_22_TRANQUILIZER",
+        "name": "munizione_22_tranquillante",
+        "category": "ammo",
+        "image": "image/ammo/ammo_22_tranquilizer.png"
+    },
+    {
+        "id": "AMMO_ARROW",
+        "name": "freccia",
+        "category": "ammo",
+        "image": "image/ammo/ammo_arrow.png"
+    },
+    {
+        "id": "AMMO_ARROW_CONFUSION",
+        "name": "freccia_confusione",
+        "category": "ammo",
+        "image": "image/ammo/ammo_arrow_confusion.png"
+    },
+    {
+        "id": "AMMO_ARROW_DISINTEGRATE",
+        "name": "freccia_disintegra",
+        "category": "ammo",
+        "image": "image/ammo/ammo_arrow_disintegrate.png"
+    },
+    {
+        "id": "AMMO_ARROW_DRAIN",
+        "name": "freccia_drenante",
+        "category": "ammo",
+        "image": "image/ammo/ammo_arrow_drain.png"
+    },
+    {
+        "id": "AMMO_ARROW_DYNAMITE",
+        "name": "freccia_dinamite",
+        "category": "ammo",
+        "image": "image/ammo/ammo_arrow_dynamite.png"
+    },
+    {
+        "id": "AMMO_ARROW_FIRE",
+        "name": "freccia_fuoco",
+        "category": "ammo",
+        "image": "image/ammo/ammo_arrow_fire.png"
+    },
+    {
+        "id": "AMMO_ARROW_IMPROVED",
+        "name": "freccia_migliorata",
+        "category": "ammo",
+        "image": "image/ammo/ammo_arrow_improved.png"
+    },
+    {
+        "id": "AMMO_ARROW_POISON",
+        "name": "freccia_veleno",
+        "category": "ammo",
+        "image": "image/ammo/ammo_arrow_poison.png"
+    },
+    {
+        "id": "AMMO_ARROW_SMALL_GAME",
+        "name": "freccia_piccoli_animali",
+        "category": "ammo",
+        "image": "image/ammo/ammo_arrow_small_game.png"
+    },
+    {
+        "id": "AMMO_ARROW_TRACKING",
+        "name": "freccia_tracking",
+        "category": "ammo",
+        "image": "image/ammo/ammo_arrow_tracking.png"
+    },
+    {
+        "id": "AMMO_ARROW_TRAIL",
+        "name": "freccia_traccia",
+        "category": "ammo",
+        "image": "image/ammo/ammo_arrow_trail.png"
+    },
+    {
+        "id": "AMMO_ARROW_WOUND",
+        "name": "freccia_wound",
+        "category": "ammo",
+        "image": "image/ammo/ammo_arrow_wound.png"
+    },
+    {
+        "id": "AMMO_BOLA",
+        "name": "bola",
+        "category": "ammo",
+        "image": "image/ammo/ammo_bola.png"
+    },
+    {
+        "id": "AMMO_BOLA_HAWKMOTH",
+        "name": "bola_falena_notturna",
+        "category": "ammo",
+        "image": "image/ammo/ammo_bola_hawkmoth.png"
+    },
+    {
+        "id": "AMMO_BOLA_INTERTWINED",
+        "name": "bola_intrecciata",
+        "category": "ammo",
+        "image": "image/ammo/ammo_bola_intertwined.png"
+    },
+    {
+        "id": "AMMO_BOLA_IRONSPIKED",
+        "name": "bola_chiodata_in_ferro",
+        "category": "ammo",
+        "image": "image/ammo/ammo_bola_ironspiked.png"
+    },
+    {
+        "id": "AMMO_BULLET_EXPLOSIVE",
+        "name": "proiettile_esplosivo",
+        "category": "ammo",
+        "image": "image/ammo/ammo_bullet_explosive.png"
+    },
+    {
+        "id": "AMMO_BULLET_HIGH_VELOCITY",
+        "name": "proiettile_alta_velocita",
+        "category": "ammo",
+        "image": "image/ammo/ammo_bullet_high_velocity.png"
+    },
+    {
+        "id": "AMMO_BULLET_NORMAL",
+        "name": "proiettile_normale",
+        "category": "ammo",
+        "image": "image/ammo/ammo_bullet_normal.png"
+    },
+    {
+        "id": "AMMO_BULLET_SPLIT_POINT",
+        "name": "proiettile_punta_divisa",
+        "category": "ammo",
+        "image": "image/ammo/ammo_bullet_split_point.png"
+    },
+    {
+        "id": "AMMO_BULLET_VARMINT",
+        "name": "proiettile_per_piccoli_animali",
+        "category": "ammo",
+        "image": "image/ammo/ammo_bullet_varmint.png"
+    },
+    {
+        "id": "AMMO_DYNAMITE",
+        "name": "dinamite",
+        "category": "ammo",
+        "image": "image/ammo/ammo_dynamite.png"
+    },
+    {
+        "id": "AMMO_DYNAMITE_VOLATILE",
+        "name": "dinamite_volatile",
+        "category": "ammo",
+        "image": "image/ammo/ammo_dynamite_volatile.png"
+    },
+    {
+        "id": "AMMO_MOLOTOV",
+        "name": "molotov",
+        "category": "ammo",
+        "image": "image/ammo/ammo_molotov.png"
+    },
+    {
+        "id": "AMMO_MOLOTOV_VOLATILE",
+        "name": "molotov_volatile",
+        "category": "ammo",
+        "image": "image/ammo/ammo_molotov_volatile.png"
+    },
+    {
+        "id": "AMMO_PISTOL",
+        "name": "pistola",
+        "category": "ammo",
+        "image": "image/ammo/ammo_pistol.png"
+    },
+    {
+        "id": "AMMO_PISTOL_EXPRESS",
+        "name": "pistola_express",
+        "category": "ammo",
+        "image": "image/ammo/ammo_pistol_express.png"
+    },
+    {
+        "id": "AMMO_PISTOL_HIGH_VELOCITY",
+        "name": "pistola_alta_velocita",
+        "category": "ammo",
+        "image": "image/ammo/ammo_pistol_high_velocity.png"
+    },
+    {
+        "id": "AMMO_PISTOL_SPLIT_POINT",
+        "name": "pistola_punta_divisa",
+        "category": "ammo",
+        "image": "image/ammo/ammo_pistol_split_point.png"
+    },
+    {
+        "id": "AMMO_POISONBOTTLE",
+        "name": "bottiglia_veleno",
+        "category": "ammo",
+        "image": "image/ammo/ammo_poisonbottle.png"
+    },
+    {
+        "id": "AMMO_REPEATER",
+        "name": "ripetitore",
+        "category": "ammo",
+        "image": "image/ammo/ammo_repeater.png"
+    },
+    {
+        "id": "AMMO_REPEATER_EXPLOSIVE",
+        "name": "ripetitore_esplosivo",
+        "category": "ammo",
+        "image": "image/ammo/ammo_repeater_explosive.png"
+    },
+    {
+        "id": "AMMO_REPEATER_EXPRESS",
+        "name": "ripetitore_express",
+        "category": "ammo",
+        "image": "image/ammo/ammo_repeater_express.png"
+    },
+    {
+        "id": "AMMO_REPEATER_HIGH_VELOCITY",
+        "name": "ripetitore_alta_velocita",
+        "category": "ammo",
+        "image": "image/ammo/ammo_repeater_high_velocity.png"
+    },
+    {
+        "id": "AMMO_REPEATER_SPLIT_POINT",
+        "name": "ripetitore_punta_divisa",
+        "category": "ammo",
+        "image": "image/ammo/ammo_repeater_split_point.png"
+    },
+    {
+        "id": "AMMO_REVOLVER",
+        "name": "revolver",
+        "category": "ammo",
+        "image": "image/ammo/ammo_revolver.png"
+    },
+    {
+        "id": "AMMO_REVOLVER_EXPLOSIVE",
+        "name": "revolver_esplosivo",
+        "category": "ammo",
+        "image": "image/ammo/ammo_revolver_explosive.png"
+    },
+    {
+        "id": "AMMO_REVOLVER_EXPRESS",
+        "name": "revolver_express",
+        "category": "ammo",
+        "image": "image/ammo/ammo_revolver_express.png"
+    },
+    {
+        "id": "AMMO_REVOLVER_HIGH_VELOCITY",
+        "name": "revolver_alta_velocita",
+        "category": "ammo",
+        "image": "image/ammo/ammo_revolver_high_velocity.png"
+    },
+    {
+        "id": "AMMO_RIFLE",
+        "name": "fucile",
+        "category": "ammo",
+        "image": "image/ammo/ammo_rifle.png"
+    },
+    {
+        "id": "AMMO_RIFLE_ELEPHANT",
+        "name": "fucile_elefante",
+        "category": "ammo",
+        "image": "image/ammo/ammo_rifle_elephant.png"
+    },
+    {
+        "id": "AMMO_RIFLE_EXPRESS",
+        "name": "fucile_express",
+        "category": "ammo",
+        "image": "image/ammo/ammo_rifle_express.png"
+    },
+    {
+        "id": "AMMO_RIFLE_HIGH_VELOCITY",
+        "name": "fucile_alta_velocita",
+        "category": "ammo",
+        "image": "image/ammo/ammo_rifle_high_velocity.png"
+    },
+    {
+        "id": "AMMO_RIFLE_SPLIT_POINT",
+        "name": "fucile_punta_divisa",
+        "category": "ammo",
+        "image": "image/ammo/ammo_rifle_split_point.png"
+    },
+    {
+        "id": "AMMO_SHOTGUN",
+        "name": "fucile_a_pompa",
+        "category": "ammo",
+        "image": "image/ammo/ammo_shotgun.png"
+    },
+    {
+        "id": "AMMO_SHOTGUN_BUCKSHOT_INCENDIARY",
+        "name": "fucile_a_pompa_buckshot_incendiario",
+        "category": "ammo",
+        "image": "image/ammo/ammo_shotgun_buckshot_incendiary.png"
+    },
+    {
+        "id": "AMMO_SHOTGUN_SLUG",
+        "name": "fucile_a_pompa_slug",
+        "category": "ammo",
+        "image": "image/ammo/ammo_shotgun_slug.png"
+    },
+    {
+        "id": "AMMO_SHOTGUN_SLUG_EXPLOSIVE",
+        "name": "fucile_a_pompa_slug_esplosivo",
+        "category": "ammo",
+        "image": "image/ammo/ammo_shotgun_slug_explosive.png"
+    },
+    {
+        "id": "AMMO_THROWING_KNIVES",
+        "name": "coltelli_da_lancio",
+        "category": "ammo",
+        "image": "image/ammo/ammo_throwing_knives.png"
+    },
+    {
+        "id": "AMMO_THROWING_KNIVES_CONFUSE",
+        "name": "coltelli_da_lancio_confusione",
+        "category": "ammo",
+        "image": "image/ammo/ammo_throwing_knives_confuse.png"
+    },
+    {
+        "id": "AMMO_THROWING_KNIVES_DRAIN",
+        "name": "coltelli_da_lancio_drenanti",
+        "category": "ammo",
+        "image": "image/ammo/ammo_throwing_knives_drain.png"
+    },
+    {
+        "id": "AMMO_THROWING_KNIVES_DISORIENT",
+        "name": "coltelli_da_lancio_disorientanti",
+        "category": "ammo",
+        "image": "image/ammo/ammo_throwing_knives_disorient.png"
+    },
+    {
+        "id": "AMMO_THROWING_KNIVES_IMPROVED",
+        "name": "coltelli_da_lancio_migliorati",
+        "category": "ammo",
+        "image": "image/ammo/ammo_throwing_knives_improved.png"
+    },
+    {
+        "id": "AMMO_THROWING_KNIVES_POISON",
+        "name": "coltelli_da_lancio_veleno",
+        "category": "ammo",
+        "image": "image/ammo/ammo_throwing_knives_poison.png"
+    },
+    {
+        "id": "AMMO_THROWING_KNIVES_TRAIL",
+        "name": "coltelli_da_lancio_traccia",
+        "category": "ammo",
+        "image": "image/ammo/ammo_throwing_knives_trail.png"
+    },
+    {
+        "id": "AMMO_THROWING_KNIVES_WOUND",
+        "name": "coltelli_da_lancio_wound",
+        "category": "ammo",
+        "image": "image/ammo/ammo_throwing_knives_wound.png"
+    },
+    {
+        "id": "AMMO_TOMAHAWK",
+        "name": "tomahawk",
+        "category": "ammo",
+        "image": "image/ammo/ammo_tomahawk.png"
+    },
+    {
+        "id": "AMMO_TOMAHAWK_ANCIENT",
+        "name": "tomahawk_antico",
+        "category": "ammo",
+        "image": "image/ammo/ammo_tomahawk_ancient.png"
+    },
+    {
+        "id": "AMMO_TOMAHAWK_HOMING",
+        "name": "tomahawk_a_radar",
+        "category": "ammo",
+        "image": "image/ammo/ammo_tomahawk_homing.png"
+    },
+    {
+        "id": "AMMO_TOMAHAWK_IMPROVED",
+        "name": "tomahawk_migliorato",
+        "category": "ammo",
+        "image": "image/ammo/ammo_tomahawk_improved.png"
+    }
+]

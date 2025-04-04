@@ -1,0 +1,56 @@
+[
+    {
+        "id": "THROWN_BOLAS",
+        "name": "bolas",
+        "category": "throwable",
+        "image": "image/throwable/weapon_thrown_bolas.png"
+    },
+    {
+        "id": "THROWN_BOLAS_HAWKMOTH",
+        "name": "bolas hawkmoth",
+        "category": "throwable",
+        "image": "image/throwable/weapon_thrown_bolas_hawkmoth.png"
+    },
+    {
+        "id": "THROWN_BOLAS_INTERTWINED",
+        "name": "bolas intrecciate",
+        "category": "throwable",
+        "image": "image/throwable/weapon_thrown_bolas_intertwined.png"
+    },
+    {
+        "id": "THROWN_BOLAS_IRONSPIKED",
+        "name": "bolas con punte di ferro",
+        "category": "throwable",
+        "image": "image/throwable/weapon_thrown_bolas_ironspiked.png"
+    },
+    {
+        "id": "THROWN_DYNAMITE",
+        "name": "dinamite",
+        "category": "throwable",
+        "image": "image/throwable/weapon_thrown_dynamite.png"
+    },
+    {
+        "id": "THROWN_MOLOTOV",
+        "name": "molotov",
+        "category": "throwable",
+        "image": "image/throwable/weapon_thrown_molotov.png"
+    },
+    {
+        "id": "THROWN_POISONBOTTLE",
+        "name": "bottiglia velenosa",
+        "category": "throwable",
+        "image": "image/throwable/weapon_thrown_poisonbottle.png"
+    },
+    {
+        "id": "THROWN_THROWING_KNIVES",
+        "name": "coltelli da lancio",
+        "category": "throwable",
+        "image": "image/throwable/weapon_thrown_throwing_knives.png"
+    },
+    {
+        "id": "THROWN_TOMAHAWK",
+        "name": "tomahawk",
+        "category": "throwable",
+        "image": "image/throwable/weapon_thrown_tomahawk.png"
+    }
+]

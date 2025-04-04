@@ -1,0 +1,566 @@
+[
+    {
+        "id": "seed_agarita",
+        "name": "semi di agarita",
+        "category": "seeds",
+        "image": "image/seeds/seed_agarita.png"
+    },
+    {
+        "id": "seed_agave",
+        "name": "semi di agave",
+        "category": "seeds",
+        "image": "image/seeds/seed_agave.png"
+    },
+    {
+        "id": "seed_alaskan_ginseng",
+        "name": "semi di ginseng dell'Alaska",
+        "category": "seeds",
+        "image": "image/seeds/seed_alaskan_ginseng.png"
+    },
+    {
+        "id": "seed_aloe_vera",
+        "name": "semi di aloe vera",
+        "category": "seeds",
+        "image": "image/seeds/seed_aloe_vera.png"
+    },
+    {
+        "id": "seed_american_ginseng",
+        "name": "semi di ginseng americano",
+        "category": "seeds",
+        "image": "image/seeds/seed_american_ginseng.png"
+    },
+    {
+        "id": "seed_apple",
+        "name": "semi di mela",
+        "category": "seeds",
+        "image": "image/seeds/seed_apple.png"
+    },
+    {
+        "id": "seed_artichoke",
+        "name": "semi di carciofo",
+        "category": "seeds",
+        "image": "image/seeds/seed_artichoke.png"
+    },
+    {
+        "id": "seed_banana",
+        "name": "semi di banana",
+        "category": "seeds",
+        "image": "image/seeds/seed_banana.png"
+    },
+    {
+        "id": "seed_barley",
+        "name": "semi di orzo",
+        "category": "seeds",
+        "image": "image/seeds/seed_barley.png"
+    },
+    {
+        "id": "seed_basil",
+        "name": "semi di basilico",
+        "category": "seeds",
+        "image": "image/seeds/seed_basil.png"
+    },
+    {
+        "id": "seed_bay_bolete",
+        "name": "semi di bolette bay",
+        "category": "seeds",
+        "image": "image/seeds/seed_bay_bolete.png"
+    },
+    {
+        "id": "seed_bean",
+        "name": "semi di fagiolo",
+        "category": "seeds",
+        "image": "image/seeds/seed_bean.png"
+    },
+    {
+        "id": "seed_beetroot",
+        "name": "semi di barbabietola",
+        "category": "seeds",
+        "image": "image/seeds/seed_beetroot.png"
+    },
+    {
+        "id": "seed_bell_pepper_assorted",
+        "name": "semi di peperone assortito",
+        "category": "seeds",
+        "image": "image/seeds/seed_bell_pepper_assorted.png"
+    },
+    {
+        "id": "seed_bell_pepper_green",
+        "name": "semi di peperone verde",
+        "category": "seeds",
+        "image": "image/seeds/seed_bell_pepper_green.png"
+    },
+    {
+        "id": "seed_bitter_weed",
+        "name": "semi di erba amara",
+        "category": "seeds",
+        "image": "image/seeds/seed_bitter_weed.png"
+    },
+    {
+        "id": "seed_black_berry",
+        "name": "semi di mora",
+        "category": "seeds",
+        "image": "image/seeds/seed_black_berry.png"
+    },
+    {
+        "id": "seed_black_currant",
+        "name": "semi di ribes nero",
+        "category": "seeds",
+        "image": "image/seeds/seed_black_currant.png"
+    },
+    {
+        "id": "seed_blood_flower",
+        "name": "semi di fiore di sangue",
+        "category": "seeds",
+        "image": "image/seeds/seed_blood_flower.png"
+    },
+    {
+        "id": "seed_blueberry",
+        "name": "semi di mirtillo",
+        "category": "seeds",
+        "image": "image/seeds/seed_blueberry.png"
+    },
+    {
+        "id": "seed_broccoli",
+        "name": "semi di broccolo",
+        "category": "seeds",
+        "image": "image/seeds/seed_broccoli.png"
+    },
+    {
+        "id": "seed_broomcorn_millet",
+        "name": "semi di miglio broomcorn",
+        "category": "seeds",
+        "image": "image/seeds/seed_broomcorn_millet.png"
+    },
+    {
+        "id": "seed_bulrush",
+        "name": "semi di giunco",
+        "category": "seeds",
+        "image": "image/seeds/seed_bulrush.png"
+    },
+    {
+        "id": "seed_burdock_root",
+        "name": "semi di radice di bardana",
+        "category": "seeds",
+        "image": "image/seeds/seed_burdock_root.png"
+    },
+    {
+        "id": "seed_cardinal_flower",
+        "name": "semi di fiore cardinal",
+        "category": "seeds",
+        "image": "image/seeds/seed_cardinal_flower.png"
+    },
+    {
+        "id": "seed_carrot",
+        "name": "semi di carota",
+        "category": "seeds",
+        "image": "image/seeds/seed_carrot.png"
+    },
+    {
+        "id": "seed_celery",
+        "name": "semi di sedano",
+        "category": "seeds",
+        "image": "image/seeds/seed_celery.png"
+    },
+    {
+        "id": "seed_chamomile",
+        "name": "semi di camomilla",
+        "category": "seeds",
+        "image": "image/seeds/seed_chamomile.png"
+    },
+    {
+        "id": "seed_chanterelles",
+        "name": "semi di chanterelle",
+        "category": "seeds",
+        "image": "image/seeds/seed_chanterelles.png"
+    },
+    {
+        "id": "seed_cherry",
+        "name": "semi di ciliegia",
+        "category": "seeds",
+        "image": "image/seeds/seed_cherry.png"
+    },
+    {
+        "id": "seed_chili_peppers",
+        "name": "semi di peperoncino",
+        "category": "seeds",
+        "image": "image/seeds/seed_chili_peppers.png"
+    },
+    {
+        "id": "seed_choc_daisy",
+        "name": "semi di margherita cioccolato",
+        "category": "seeds",
+        "image": "image/seeds/seed_choc_daisy.png"
+    },
+    {
+        "id": "seed_cocoa",
+        "name": "semi di cacao",
+        "category": "seeds",
+        "image": "image/seeds/seed_cocoa.png"
+    },
+    {
+        "id": "seed_coconut",
+        "name": "semi di cocco",
+        "category": "seeds",
+        "image": "image/seeds/seed_coconut.png"
+    },
+    {
+        "id": "seed_coffee",
+        "name": "semi di caffè",
+        "category": "seeds",
+        "image": "image/seeds/seed_coffee.png"
+    },
+    {
+        "id": "seed_corn",
+        "name": "semi di mais",
+        "category": "seeds",
+        "image": "image/seeds/seed_corn.png"
+    },
+    {
+        "id": "seed_cotton",
+        "name": "semi di cotone",
+        "category": "seeds",
+        "image": "image/seeds/seed_cotton.png"
+    },
+    {
+        "id": "seed_crabapple",
+        "name": "semi di mela selvatica",
+        "category": "seeds",
+        "image": "image/seeds/seed_crabapple.png"
+    },
+    {
+        "id": "seed_creekplum",
+        "name": "semi di prugnolo",
+        "category": "seeds",
+        "image": "image/seeds/seed_creekplum.png"
+    },
+    {
+        "id": "seed_creeping_thyme",
+        "name": "semi di timo strisciante",
+        "category": "seeds",
+        "image": "image/seeds/seed_creeping_thyme.png"
+    },
+    {
+        "id": "seed_crows_garlic",
+        "name": "semi di aglio dei corvi",
+        "category": "seeds",
+        "image": "image/seeds/seed_crows_garlic.png"
+    },
+    {
+        "id": "seed_cucumber",
+        "name": "semi di cetriolo",
+        "category": "seeds",
+        "image": "image/seeds/seed_cucumber.png"
+    },
+    {
+        "id": "seed_currant",
+        "name": "semi di ribes",
+        "category": "seeds",
+        "image": "image/seeds/seed_currant.png"
+    },
+    {
+        "id": "seed_desert_sage",
+        "name": "semi di salvia del deserto",
+        "category": "seeds",
+        "image": "image/seeds/seed_desert_sage.png"
+    },
+    {
+        "id": "seed_dill",
+        "name": "semi di aneto",
+        "category": "seeds",
+        "image": "image/seeds/seed_dill.png"
+    },
+    {
+        "id": "seed_echinacea",
+        "name": "semi di echinacea",
+        "category": "seeds",
+        "image": "image/seeds/seed_echinacea.png"
+    },
+    {
+        "id": "seed_english_mace",
+        "name": "semi di mace inglese",
+        "category": "seeds",
+        "image": "image/seeds/seed_english_mace.png"
+    },
+    {
+        "id": "seed_evergreen_huckleberry",
+        "name": "semi di mirtillo evergreen",
+        "category": "seeds",
+        "image": "image/seeds/seed_evergreen_huckleberry.png"
+    },
+    {
+        "id": "seed_golden_currant",
+        "name": "semi di ribes dorato",
+        "category": "seeds",
+        "image": "image/seeds/seed_golden_currant.png"
+    },
+    {
+        "id": "seed_grapes",
+        "name": "semi di uva",
+        "category": "seeds",
+        "image": "image/seeds/seed_grapes.png"
+    },
+    {
+        "id": "seed_hemp",
+        "name": "semi di canapa",
+        "category": "seeds",
+        "image": "image/seeds/seed_hemp.png"
+    },
+    {
+        "id": "seed_hop",
+        "name": "semi di luppolo",
+        "category": "seeds",
+        "image": "image/seeds/seed_hop.png"
+    },
+    {
+        "id": "seed_hummingbird_sage",
+        "name": "semi di salvia per colibrì",
+        "category": "seeds",
+        "image": "image/seeds/seed_hummingbird_sage.png"
+    },
+    {
+        "id": "seed_indian_tobacco",
+        "name": "semi di tabacco indiano",
+        "category": "seeds",
+        "image": "image/seeds/seed_indian_tobacco.png"
+    },
+    {
+        "id": "seed_juniper",
+        "name": "semi di ginepro",
+        "category": "seeds",
+        "image": "image/seeds/seed_juniper.png"
+    },
+    {
+        "id": "seed_lavender",
+        "name": "semi di lavanda",
+        "category": "seeds",
+        "image": "image/seeds/seed_lavender.png"
+    },
+    {
+        "id": "seed_lemon",
+        "name": "semi di limone",
+        "category": "seeds",
+        "image": "image/seeds/seed_lemon.png"
+    },
+    {
+        "id": "seed_lettuce",
+        "name": "semi di lattuga",
+        "category": "seeds",
+        "image": "image/seeds/seed_lettuce.png"
+    },
+    {
+        "id": "seed_lime",
+        "name": "semi di lime",
+        "category": "seeds",
+        "image": "image/seeds/seed_lime.png"
+    },
+    {
+        "id": "seed_milk_weed",
+        "name": "semi di cardo di latte",
+        "category": "seeds",
+        "image": "image/seeds/seed_milk_weed.png"
+    },
+    {
+        "id": "seed_oat",
+        "name": "semi di avena",
+        "category": "seeds",
+        "image": "image/seeds/seed_oat.png"
+    },
+    {
+        "id": "seed_oleander_sage",
+        "name": "semi di salvia oleandro",
+        "category": "seeds",
+        "image": "image/seeds/seed_oleander_sage.png"
+    },
+    {
+        "id": "seed_onion_assorted",
+        "name": "semi di cipolla assortita",
+        "category": "seeds",
+        "image": "image/seeds/seed_onion_assorted.png"
+    },
+    {
+        "id": "seed_onion_vidalia",
+        "name": "semi di cipolla vidalia",
+        "category": "seeds",
+        "image": "image/seeds/seed_onion_vidalia.png"
+    },
+    {
+        "id": "seed_orange",
+        "name": "semi di arancio",
+        "category": "seeds",
+        "image": "image/seeds/seed_orange.png"
+    },
+    {
+        "id": "seed_oregano",
+        "name": "semi di origano",
+        "category": "seeds",
+        "image": "image/seeds/seed_oregano.png"
+    },
+    {
+        "id": "seed_parasol_mushroom",
+        "name": "semi di fungo parasol",
+        "category": "seeds",
+        "image": "image/seeds/seed_parasol_mushroom.png"
+    },
+    {
+        "id": "seed_peach",
+        "name": "semi di pesca",
+        "category": "seeds",
+        "image": "image/seeds/seed_peach.png"
+    },
+    {
+        "id": "seed_peanut",
+        "name": "semi di arachide",
+        "category": "seeds",
+        "image": "image/seeds/seed_peanut.png"
+    },
+    {
+        "id": "seed_peppercorn",
+        "name": "semi di pepe nero",
+        "category": "seeds",
+        "image": "image/seeds/seed_peppercorn.png"
+    },
+    {
+        "id": "seed_potato",
+        "name": "semi di patata",
+        "category": "seeds",
+        "image": "image/seeds/seed_potato.png"
+    },
+    {
+        "id": "seed_prairie_poppy",
+        "name": "semi di papavero delle praterie",
+        "category": "seeds",
+        "image": "image/seeds/seed_prairie_poppy.png"
+    },
+    {
+        "id": "seed_pumpkin",
+        "name": "semi di zucca",
+        "category": "seeds",
+        "image": "image/seeds/seed_pumpkin.png"
+    },
+    {
+        "id": "seed_rams_head",
+        "name": "semi di testa di ariete",
+        "category": "seeds",
+        "image": "image/seeds/seed_rams_head.png"
+    },
+    {
+        "id": "seed_red_raspberry",
+        "name": "semi di lampone rosso",
+        "category": "seeds",
+        "image": "image/seeds/seed_red_raspberry.png"
+    },
+    {
+        "id": "seed_red_sage",
+        "name": "semi di salvia rossa",
+        "category": "seeds",
+        "image": "image/seeds/seed_red_sage.png"
+    },
+    {
+        "id": "seed_rice",
+        "name": "semi di riso",
+        "category": "seeds",
+        "image": "image/seeds/seed_rice.png"
+    },
+    {
+        "id": "seed_saltbush",
+        "name": "semi di salicornia",
+        "category": "seeds",
+        "image": "image/seeds/seed_saltbush.png"
+    },
+    {
+        "id": "seed_squash",
+        "name": "semi di zucchina",
+        "category": "seeds",
+        "image": "image/seeds/seed_squash.png"
+    },
+    {
+        "id": "seed_stinging_nettle",
+        "name": "semi di ortica urticante",
+        "category": "seeds",
+        "image": "image/seeds/seed_stinging_nettle.png"
+    },
+    {
+        "id": "seed_strawberry",
+        "name": "semi di fragola",
+        "category": "seeds",
+        "image": "image/seeds/seed_strawberry.png"
+    },
+    {
+        "id": "seed_sugar_cane",
+        "name": "semi di canna da zucchero",
+        "category": "seeds",
+        "image": "image/seeds/seed_sugar_cane.png"
+    },
+    {
+        "id": "seed_tea",
+        "name": "semi di tè",
+        "category": "seeds",
+        "image": "image/seeds/seed_tea.png"
+    },
+    {
+        "id": "seed_texas_bonnet",
+        "name": "semi di cappello del Texas",
+        "category": "seeds",
+        "image": "image/seeds/seed_texas_bonnet.png"
+    },
+    {
+        "id": "seed_tomato",
+        "name": "semi di pomodoro",
+        "category": "seeds",
+        "image": "image/seeds/seed_tomato.png"
+    },
+    {
+        "id": "seed_vanilla",
+        "name": "semi di vaniglia",
+        "category": "seeds",
+        "image": "image/seeds/seed_vanilla.png"
+    },
+    {
+        "id": "seed_violet_snowdrop",
+        "name": "semi di bucaneve violetto",
+        "category": "seeds",
+        "image": "image/seeds/seed_violet_snowdrop.png"
+    },
+    {
+        "id": "seed_wheat",
+        "name": "semi di grano",
+        "category": "seeds",
+        "image": "image/seeds/seed_wheat.png"
+    },
+    {
+        "id": "seed_wild_feverfew",
+        "name": "semi di febbre selvatica",
+        "category": "seeds",
+        "image": "image/seeds/seed_wild_feverfew.png"
+    },
+    {
+        "id": "seed_wild_mint",
+        "name": "semi di menta selvatica",
+        "category": "seeds",
+        "image": "image/seeds/seed_wild_mint.png"
+    },
+    {
+        "id": "seed_wild_rhubarb",
+        "name": "semi di rabarbaro selvatico",
+        "category": "seeds",
+        "image": "image/seeds/seed_wild_rhubarb.png"
+    },
+    {
+        "id": "seed_wintergreen_berry",
+        "name": "semi di bacche di wintergreen",
+        "category": "seeds",
+        "image": "image/seeds/seed_wintergreen_berry.png"
+    },
+    {
+        "id": "seed_wisteria",
+        "name": "semi di glicine",
+        "category": "seeds",
+        "image": "image/seeds/seed_wisteria.png"
+    },
+    {
+        "id": "seed_yarrow",
+        "name": "semi di achillea",
+        "category": "seeds",
+        "image": "image/seeds/seed_yarrow.png"
+    }
+]

@@ -1,0 +1,92 @@
+[
+    {
+        "id": "MELEE_KNIFE",
+        "name": "coltello",
+        "category": "melee",
+        "image": "image/melee/weapon_melee_knife.png"
+    },
+    {
+        "id": "MELEE_KNIFE_CIVIL_WAR",
+        "name": "coltello guerra civile",
+        "category": "melee",
+        "image": "image/melee/weapon_melee_knife_civil_war.png"
+    },
+    {
+        "id": "MELEE_KNIFE_HORROR",
+        "name": "coltello horror",
+        "category": "melee",
+        "image": "image/melee/weapon_melee_knife_horror.png"
+    },
+    {
+        "id": "MELEE_KNIFE_JAWBONE",
+        "name": "coltello mandibola",
+        "category": "melee",
+        "image": "image/melee/weapon_melee_knife_jawbone.png"
+    },
+    {
+        "id": "MELEE_KNIFE_RUSTIC",
+        "name": "coltello rustico",
+        "category": "melee",
+        "image": "image/melee/weapon_melee_knife_rustic.png"
+    },
+    {
+        "id": "MELEE_KNIFE_TRADER",
+        "name": "coltello commerciante",
+        "category": "melee",
+        "image": "image/melee/weapon_melee_knife_trader.png"
+    },
+    {
+        "id": "MELEE_LANTERN_DAVY",
+        "name": "lanterna davy",
+        "category": "melee",
+        "image": "image/melee/weapon_melee_lantern_davy.png"
+    },
+    {
+        "id": "MELEE_LANTERN_ELECTRIC",
+        "name": "lanterna elettrica",
+        "category": "melee",
+        "image": "image/melee/weapon_melee_lantern_electric.png"
+    },
+    {
+        "id": "MELEE_LANTERN_HALLOWEEN",
+        "name": "lanterna halloween",
+        "category": "melee",
+        "image": "image/melee/weapon_melee_lantern_halloween.png"
+    },
+    {
+        "id": "MELEE_MACHETE",
+        "name": "machete",
+        "category": "melee",
+        "image": "image/melee/weapon_melee_machete.png"
+    },
+    {
+        "id": "MELEE_MACHETE_COLLECTOR",
+        "name": "machete collezionista",
+        "category": "melee",
+        "image": "image/melee/weapon_melee_machete_collector.png"
+    },
+    {
+        "id": "MELEE_MACHETE_ZAVALA",
+        "name": "machete zavala",
+        "category": "melee",
+        "image": "image/melee/weapon_melee_machete_zavala.png"
+    },
+    {
+        "id": "MELEE_ORNATE_DAGGER",
+        "name": "pugnale ornato",
+        "category": "melee",
+        "image": "image/melee/weapon_melee_ornate_dagger.png"
+    },
+    {
+        "id": "MELEE_SWORD_BROKEN_PIRATE",
+        "name": "spada pirata rotta",
+        "category": "melee",
+        "image": "image/melee/weapon_melee_sword_broken_pirate.png"
+    },
+    {
+        "id": "MELEE_TORCH",
+        "name": "torcia",
+        "category": "melee",
+        "image": "image/melee/weapon_melee_torch.png"
+    }
+]
